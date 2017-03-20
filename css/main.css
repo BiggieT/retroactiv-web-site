@@ -94,33 +94,32 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+body{
+  background-color: #222222;
+}
+
 
 .footer {
+  color: #ef0e9d;
   position: absolute;
   right: 0;
   bottom: 0;
   left: 0;
   padding: 1rem;
-  background-color: #efefef;
+  background-color: #222222;
 }
 
 .navbar-custom {
-    background-color: ##f702c2;
+    color: #ef0e9d;
+    font-weight: bold;
+    background-color: #222222;
 }
-/* change the brand and text color */
-.navbar-custom .navbar-brand,
-.navbar-custom .navbar-text {
-    color: rgba(255,255,255,.8);
+
+.navbar-link{
+  color: #ef0e9d;
+  font-weight: bold;
 }
-/* change the link color */
-.navbar-custom .navbar-nav .nav-link {
-    color: rgba(255,255,255,.5);
-}
-/* change the color of active or hovered links */
-.navbar-custom .nav-item.active .nav-link,
-.navbar-custom .nav-item:hover .nav-link {
-    color: #ffffff;
-}
+
 
 
 
